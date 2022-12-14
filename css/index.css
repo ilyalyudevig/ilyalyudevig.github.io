@@ -3,22 +3,50 @@ body {
   height: 100%;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
 nav {
     display: flex;
     align-items: center;
     padding: 1em 0;
-  }
-  
-  .navigation-items {
+}
+
+.navigation-items {
     display: flex;
     list-style-type: none;
     padding: 0;
     align-items: center;
     margin: 0;
     margin-left: auto;
-  }
+}
+
+.navigation-items li a {
+    color: #323232;
+    text-decoration: none;
+}
   
-  .navigation-item {
+.navigation-item {
     margin: 0.5em;
-  }
+}
+
+.portrait {
+    width: 300px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+  
+.about-me-container {
+    display: flex;
+}
+  
+.about-me-text-container {
+    margin-right: 1rem;
+}
