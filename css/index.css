@@ -64,6 +64,12 @@ nav {
   width: 300px;
   border-radius: var(--border-radius);
   flex-shrink: 0;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.clicked {
+  opacity: 0;
 }
 
 .about-me-container {
